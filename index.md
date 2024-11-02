@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Home - GCC Drug Discovery Resource Center
 ---
 
 # Combinatorial Drug Discovery Program (CDDP) & High-throughput Flow Cytometry Program (HtFCP)
@@ -12,4 +12,4 @@ Welcome to the CDDP & HtFCP core facility. We provide comprehensive support for 
 - Margie Moczygemba, PhD, [Associate Professor](https://ibt.tamu.edu/faculty/margie-moczygemba.html)
 - Reid T. Powell, PhD, [Research Assistant Professor](https://ibt.tamu.edu/faculty/reid-powell.html)
 
-Learn more about our programs and instrumentation!
+Learn more about our programs and instrumentation! [General Description](general-description.md)
