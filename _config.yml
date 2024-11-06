@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "TAMU-3DRC"
+title                    : "Drug Discovery & Development Resource Center (3DRC)"
 title_separator          : "-"
-name                     : &name "Drug Discovery and Development Resource Center"
+name                     : &name "3DRC"
 description              : &description "We got what you need"
 url                      : https://TAMU-3DRC.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,21 +22,21 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Drug Discovery and Development Resource Center"
+  name             : "3DRC"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
+  bio              : "An end-to-end multi-institutional academic drug discovery resource"
+  location         : "TMC3 Helix Park - Collaborative Research Building"
+  employer         : "Texas A&M | HEALTH"
+  uri              : "https://ibt.tamu.edu/cores/high-throughput/index.html"
   email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=RP150578&btnG="
+  googlescholar    : "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=RP150578%2C+RP200668&btnG="
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -44,12 +44,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/TAMU-3DRC"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
