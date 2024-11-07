@@ -6,10 +6,10 @@
 
 main:
   - title: "Leadership"
-    url: /talks/    
+    url: /leadership/    
 
   - title: "Platform"
-    url: /teaching/
+    url: /platform/
 
   - title: "Publications"
     url: /publications/
