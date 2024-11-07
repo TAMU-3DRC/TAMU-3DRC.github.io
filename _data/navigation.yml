@@ -10,6 +10,9 @@ main:
 
   - title: "Platform"
     url: /platform/
+    
+  - title: "Collaborate"
+    url: /colab/
 
   - title: "Publications"
     url: /publications/
