@@ -1,11 +1,8 @@
 ---
 title: "Peter J.A Davis"
 collection: leadership
-type: "Undergraduate course"
+type: "Executive Director"
 permalink: /leadership/1_PJD
-venue: "TAMU"
-date: 2014-01-01
-location: "Houston, TX"
 ---
 
 This is Peter
