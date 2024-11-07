@@ -1,2 +1,2 @@
 # 3DRC
-**Github Landing PAge for The Gulf Coast Consortia Drug Discovery and Development Resource Center**
+**Github Landing Page for The Gulf Coast Consortia Drug Discovery and Development Resource Center**
