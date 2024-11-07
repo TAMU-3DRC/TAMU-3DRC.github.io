@@ -21,7 +21,7 @@ repository               : "TAMU-3DRC/TAMU-3DRC.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/CDDP.jpeg"
+  avatar           : "profile.png"
   name             : "The Gulf Coast Consortia Drug Discovery and Development Resource Center (3DRC)"
   pronouns         : # example: "she/her"  
   bio              : "An end-to-end academic drug discovery resource center"
