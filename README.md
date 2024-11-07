@@ -1,2 +1,3 @@
-# 3DRC
-**Github Landing Page for The Gulf Coast Consortia Drug Discovery and Development Resource Center**
+Github Landing Page for GCC-3DRC
+------
+Launch: https://TAMU-3DRC.github.io
