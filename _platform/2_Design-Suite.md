@@ -1,6 +1,6 @@
 ---
-title: "Generative AI in Drug Discovery"
-excerpt: "Dream to concept<br/><img src='/images/DESIGN.png'>"
+title: "Drug Discovery and Generative Design"
+excerpt: "Dream to Prototype<br/><img src='/images/DESIGN.png'>"
 collection: portfolio
 ---
 ![Design](/images/DESIGN.png)
