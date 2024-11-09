@@ -1,6 +1,6 @@
 ---
 title: "Synthetic and Medicinal Chemistry"
-excerpt: "concept to reality<br/><img src='/images/MAKE.png'>"
+excerpt: "Concept to Reality<br/><img src='/images/MAKE.png'>"
 collection: portfolio
 ---
 ![Make](/images/MAKE.png)
