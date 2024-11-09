@@ -7,7 +7,7 @@ collection: portfolio
 
 Our High-Throughput Screening (HTS) Center is designed for maximum flexibility, offering comprehensive capabilities for the screening of small molecules, peptides, and antibodies. Our specialized features enable us to conduct radiation-based screenings, such as X-ray radiosensitizer screens, as well as co-culture screens for immunopharmacology applications.
 
-We maintain an extensive collection of large commercial source libraries for drug repositioning, which are cost-shared and highly affordable. The detailed contents of these libraries are available [here](https://github.com/TAMU-3DRC/Libraries/Readme.md).
+We maintain an extensive collection of large commercial source libraries for drug repositioning, which are cost-shared and highly affordable. The detailed contents of these libraries are available [here](https://github.com/TAMU-3DRC/Libraries).
 
 Our capabilities span a wide array of assay formats, including homogeneous protein assays, 2D and suspension cell assays, matrix-embedded organoids and spheroids, and tissue chips. Our advanced liquid handling platforms support precise generation of assay-ready plates (96 amd 384), using a range of dispensing methods such as tip, peristaltic, pin, and acoustic methods for optimal flexibility.
 
