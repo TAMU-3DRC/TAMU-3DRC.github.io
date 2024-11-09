@@ -1,6 +1,6 @@
 ---
-title: "The High-throughput Screening Center"
-excerpt: "Reality to test<br/><img src='/images/TEST.png'>"
+title: "High-throughput Screening Center"
+excerpt: "Reality to Test<br/><img src='/images/TEST.png'>"
 collection: portfolio
 ---
 ![Test](/images/TEST.png)
