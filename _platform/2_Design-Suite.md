@@ -1,6 +1,6 @@
 ---
 title: "Drug Discovery and Generative Design"
-excerpt: "Dream to Prototype<br/><img src='/images/DESIGN.png'>"
+excerpt: "Dream to Concept<br/><img src='/images/DESIGN.png'>"
 collection: portfolio
 ---
 ![Design](/images/DESIGN.png)
