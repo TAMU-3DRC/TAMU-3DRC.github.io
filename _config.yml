@@ -25,7 +25,7 @@ author:
   name             : "The Gulf Coast Consortia Drug Discovery and Development Resource Center (3DRC)"
   pronouns         : # example: "she/her"  
   bio              : "An end-to-end academic drug discovery resource center"
-  location         : "TMC3 Helix Park - Collaborative Research Building"
+  location         : "TMC3 Helix Park - CRB"
   employer         : "Texas A&M | HEALTH"
   uri              : "https://ibt.tamu.edu/cores/high-throughput/index.html"
   email            : "repowell@tamu.edu" 
@@ -221,6 +221,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  libraries:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -265,6 +268,14 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _libraries
+  - scope:
+      path: ""
+      type: libraries
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:

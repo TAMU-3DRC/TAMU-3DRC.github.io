@@ -11,6 +11,9 @@ main:
   - title: "Platform"
     url: /platform/
     
+  - title: "Library"
+    url: /libraries/
+    
   - title: "Collaborate"
     url: /colab/
 
