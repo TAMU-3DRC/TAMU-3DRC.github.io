@@ -26,6 +26,6 @@ Our facility also plays a unique role in acting as an honest broker, facilitatin
 In addition to collaborative grants, we offer contract research opportunities designed to meet the specific needs of our partners. Whether you’re an academic researcher or an industry innovator, we are ready to support you with the expertise, infrastructure, and dedication needed to solve complex scientific challenges.
 
 **We’re Open for Collaboration**
-If you're looking to partner on cutting-edge medical research, we’re here to help. Together, we can take on the biggest challenges in healthcare and make a lasting impact. To get started, apply [here](https://forms.gle/cVc33Jtfk9ZALX9p6)
+If you're looking to partner on cutting-edge medical research, we’re here to help. Together, we can take on the biggest challenges in healthcare and make a lasting impact. To get started, apply [here](https://forms.gle/cVc33Jtfk9ZALX9p6){:target="_blank"}
 
 
