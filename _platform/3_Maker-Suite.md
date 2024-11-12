@@ -1,6 +1,6 @@
 ---
 title: "Synthetic and Medicinal Chemistry"
-excerpt: "Concept to Reality<br/><img src='/images/MAKE.png'>"
+excerpt: "The Synthetic and Medicinal Chemistry Program provides state-of-the-art infrastructure for the synthesis and optimization of compounds. Our team of experts employs industry-standard instrumentation to create and refine molecules, ensuring they meet the necessary criteria for therapeutic efficacy and safety.<br/><img src='/images/MAKE.png'>"
 collection: portfolio
 ---
 ![Make](/images/MAKE.png)
