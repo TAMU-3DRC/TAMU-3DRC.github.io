@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "![3DRC](/images/profile.png)"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "3DRC"
 description              : &description "We got what you need"
