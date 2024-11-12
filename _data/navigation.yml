@@ -5,29 +5,20 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Leadership"
-    url: /leadership/    
+  - title: "Apply Now"
+    url: /apply/
 
   - title: "Platform"
     url: /platform/
     
-  - title: "Library"
-    url: /libraries/
+  - title: "Resources"
+    url: /resources/
     
   - title: "Collaborate"
     url: /colab/
 
   - title: "Publications"
     url: /publications/
-
-  # - title: "Portfolio"
-    # url: /portfolio/
-        
-  # - title: "Blog Posts"
-    # url: /year-archive/
     
-  # - title: "CV"
-    # url: /cv/
-    
-  # - title: "Guide"
-    # url: /markdown/
+  - title: "Leadership"
+    url: /leadership/

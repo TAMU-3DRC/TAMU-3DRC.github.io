@@ -22,7 +22,7 @@ repository               : "TAMU-3DRC/TAMU-3DRC.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "The Gulf Coast Consortia Drug Discovery and Development Resource Center (3DRC)"
+  name             : "GCC-3DRC"
   pronouns         : # example: "she/her"  
   bio              : "An end-to-end academic drug discovery resource center"
   location         : "TMC3 Helix Park - CRB"
@@ -221,7 +221,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  libraries:
+  resources:
     output: true
     permalink: /:collection/:path/
 
@@ -239,7 +239,7 @@ defaults:
       path: ""
       type: leadership
     values:
-      layout: single
+      layout: compress
       author_profile: true
       share: true
       comments: true
@@ -268,10 +268,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _libraries
+  # _resources
   - scope:
       path: ""
-      type: libraries
+      type: resources
     values:
       layout: single
       author_profile: true
