@@ -9,11 +9,14 @@
     {% if site.author.github %}
       <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% if site.author.email %}
+      <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>
     {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% if site.author.googlescholar %}
+      <li><a href="{{ site.author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+    {% endif %}
+    {% if site.author.twitter %}
+      <li><a href="https://x.com//{{ site.author.twitter }}"><i class="fab fa-x-twitter" aria-hidden="true"></i> X</a></li>
     {% endif %}
   </ul>
 </div>
