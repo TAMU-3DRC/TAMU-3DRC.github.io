@@ -1,6 +1,6 @@
 ---
 title: "High-throughput Screening Center"
-excerpt: "Reality to Test<br/><img src='/images/TEST.png'>"
+excerpt: "Our High-Throughput Screening Center supports a broad range of assay formats,and endpoints to enable rapid and comprehensive testing of compounds. Lower throughput high content assays for lead optimization and Toxicity profiling are also available.<br/><img src='/images/TEST.png'>"
 collection: portfolio
 ---
 ![Test](/images/TEST.png)
