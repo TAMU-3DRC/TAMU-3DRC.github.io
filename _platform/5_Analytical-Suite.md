@@ -1,6 +1,6 @@
 ---
 title: "Informatics and Data Science"
-excerpt: "Test to Knowledge<br/><img src='/images/ANALYZE.png'>"
+excerpt: "Finally, the Screening Informatics and Data Science Program ensures robust data analysis and visualization throughout the drug discovery process. By integrating data science techniques, we can interpret complex datasets, facilitating informed decision-making and accelerating the development of novel therapeutics.<br/><img src='/images/ANALYZE.png'>"
 collection: portfolio
 ---
 ![Analyze](/images/ANALYZE.png)
