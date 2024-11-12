@@ -38,7 +38,7 @@ Drug Libraries
 | TargetMol L9000 Apoptosis Compound Library          | Yes      | Yes         | Active  | [SDF](data/SDF/TargetMol_L9000_Apoptosis%20Compound%20Library.sdf) / [XLSX](data/XLSX/TargetMol_L9000_Apoptosis%20Compound%20Library.xlsx) |
 | UTKinase V5                                         | Yes      | Yes         | Active  | [SDF](data/SDF/UTKinase_V5.sdf) / [XLSX](data/XLSX/UTKinase_V5.xlsx) |
 
-Equiptment
+Equipment
 ======
 
 Synthetic Chemistry
