@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /library-details
+permalink: /library-details/
 author_profile: true
 ---
 # GCC Chemical Genomics Libraries
