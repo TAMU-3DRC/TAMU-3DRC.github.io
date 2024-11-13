@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "3DRC Drug Libraries Details"
+title: "3DRC Drug Library Details"
 permalink: /library-details/
 author_profile: true
 ---
