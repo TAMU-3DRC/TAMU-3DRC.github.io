@@ -1,11 +1,9 @@
 ---
 layout: archive
+title: "3DRC Drug Libraries Details"
 permalink: /library-details/
 author_profile: true
 ---
-# GCC Chemical Genomics Libraries
-
-## Combinatorial Drug Discovery Program Libraries
 
 ### Approved Drugs, Investigational Agents, and Bioactive Molecules
 
