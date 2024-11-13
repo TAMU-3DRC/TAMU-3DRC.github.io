@@ -224,7 +224,10 @@ collections:
   resources:
     output: true
     permalink: /:collection/:path/
-
+  library-details:
+    output: true
+    permalink: /:collection/:path/
+    
 # These settings control how pages and collections are included in the site
 defaults:
   # _pages
@@ -276,7 +279,15 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
+  # _library-details
+  - scope:
+      path: ""
+      type: library-details
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass

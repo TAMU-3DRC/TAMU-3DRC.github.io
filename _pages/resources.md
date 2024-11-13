@@ -11,9 +11,19 @@ The Texas A&M Drug Discovery and Development Resource (3DRC) Center is a Texas A
 Drug Libraries
 ======
 
+A detailed description of all drug libraries can be found [here](/library-details/)
+------
+A complete list of all (active and previously offered) drug libraries can be viewed and downloaded [here](https://github.com/TAMU-3DRC/Libraries)
+
+At-a-glance
+======
+
 | Library Name                                        | Approved | Mechanistic | Status  |Link                                |
 |-----------------------------------------------------|----------|-------------|---------|------------------------------------|
 | Broad 2021                                          | Yes      | Yes         | Active  |[SDF](data/SDF/Broad_2021.sdf) / [XLSX](data/XLSX/Broad_2021.xlsx) |
+| MCE FDA and Pharmacopia (2024)                      | Yes      | Yes         | Active  |[SDF](data/SDF/MCE_FDA_2024.sdf) / [XLSX](data/XLSX/MCE_FDA_2024.xlsx) |
+| MCE Epigenetics                                     | Yes      | Yes         | Active  |[SDF](data/SDF/MCE_Epigenetics_2024.sdf) / [XLSX](data/XLSX/MCE_Epigenetics_2024.xlsx) |
+| SGC Epigenetics                                     | Yes      | Yes         | Active  |[SDF](data/SDF/SGC_Epigenetics_2024.sdf) / [XLSX](data/XLSX/SGC_Epigenetics_2024.xlsx) |
 | CCI 2022                                            | Yes      | Yes         | Active  |[SDF](data/SDF/CCI_2022.sdf) / [XLSX](data/XLSX/CCI_2022.xlsx) |
 | NCI AOD 11                                          | Yes      | Yes         | Active  |[SDF](data/SDF/NCI_AOD_11.sdf) / [XLSX](data/XLSX/NCI_AOD_11.xlsx) |
 | TargetMol L1000 Approved Drug Library               | Yes      | Yes         | Active  |[SDF](data/SDF/TargetMol_L1000_Approved%20Drug%20Library.sdf) / [XLSX](data/XLSX/TargetMol_L1000_Approved%20Drug%20Library.xlsx) |
