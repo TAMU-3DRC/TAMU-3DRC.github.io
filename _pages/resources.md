@@ -11,6 +11,7 @@ The Texas A&M Drug Discovery and Development Resource (3DRC) Center is a Texas A
 # Drug Libraries
 
 A detailed description of drug libraries can be found [here](/library-details/). A complete list of all (active and previously offered) drug libraries can be viewed and downloaded [here](https://github.com/TAMU-3DRC/Libraries)
+
 | Library Name                                        | Approved | Mechanistic | Status  |Link                                |
 |-----------------------------------------------------|----------|-------------|---------|------------------------------------|
 | Broad 2021                                          | Yes      | Yes         | Active  |[SDF](data/SDF/Broad_2021.sdf) / [XLSX](data/XLSX/Broad_2021.xlsx) |
