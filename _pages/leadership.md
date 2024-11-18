@@ -2,29 +2,22 @@
 layout: archive
 title: "Leadership"
 permalink: /leadership/
-author_profile: true
-redirect_from:
-  - /leadership
 ---
 
-{% include base_path %}
-
-[Peter J.A. Davies, MD, PhD](https://ibt.tamu.edu/faculty/peter-ja-davies.html)
-------
-*  Executive Director
-
-[Clifford Stephan, PhD](https://ibt.tamu.edu/faculty/clifford-stephan.html)
-------
-*  Scientific Director
-
-[Wenshe Liu, PhD](https://ibt.tamu.edu/faculty/wenshe-liu.html)
-------
-*  Director of Chemistry
-
-[Margie Moczygemba, PhD](https://ibt.tamu.edu/faculty/margie-moczygemba.html)
-------
-*  Flow Core Director
-
-[Reid T. Powell, PhD](https://ibt.tamu.edu/faculty/reid-powell.html)
-------
-*  Director of Data Science
+<div class="leadership-container">
+  {% for leader in site.data.leadership %}
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="{{ leader.image | relative_url }}" alt="{{ leader.name }}" class="leader-image">
+          <h3>{{ leader.name }}</h3>
+          <p>{{ leader.title }}</p>
+        </div>
+        <div class="flip-card-back">
+          <p>{{ leader.bio }}</p>
+          <a href="{{ leader.link }}" target="_blank">Read more</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

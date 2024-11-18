@@ -1,0 +1,29 @@
+- name: Peter J.A. Davies, MD, PhD
+  title: Executive Director
+  image: /images/peter_davies.jpg
+  bio: "Dr. Peter J.A. Davies is the Executive Director of the 3DRC. He earned his MD and PhD from the University of Miami and completed post-graduate training at the National Cancer Institute."
+  link: https://ibt.tamu.edu/faculty/peter-ja-davies.html
+
+- name: Clifford Stephan, PhD
+  title: Scientific Director
+  image: /images/clifford_stephan.jpg
+  bio: "Dr. Clifford Stephan serves as the Scientific Director. He holds a PhD in Pharmacology from Vanderbilt University and completed postdoctoral training at Harvard Medical School."
+  link: https://ibt.tamu.edu/faculty/clifford-stephan.html
+
+- name: Wenshe Liu, PhD
+  title: Director of Chemistry
+  image: /images/wenshe_liu.jpg
+  bio: "Dr. Wenshe Liu is the Director of Chemistry. He received his PhD from UC-Davis and conducted postdoctoral research at the Scripps Research Institute."
+  link: https://ibt.tamu.edu/faculty/wenshe-liu.html
+
+- name: Margie Moczygemba, PhD
+  title: Flow Core Director
+  image: /images/margie_moczygemba.jpg
+  bio: "Dr. Margie Moczygemba is the Flow Core Director. She earned her PhD in Molecular Immunology and Pathology from SUNY at Stony Brook and completed a postdoctoral fellowship at Baylor College of Medicine."
+  link: https://ibt.tamu.edu/faculty/margie-moczygemba.html
+
+- name: Reid T. Powell, PhD
+  title: Director of Data Science
+  image: /images/reid_powell.jpg
+  bio: "Dr. Reid T. Powell is the Director of Data Science. He obtained his PhD in Medical Science from Texas A&M University and has expertise in cell and molecular biology, computer science, and lab automation."
+  link: https://ibt.tamu.edu/faculty/reid-powell.html
