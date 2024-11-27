@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About 3DRC"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
