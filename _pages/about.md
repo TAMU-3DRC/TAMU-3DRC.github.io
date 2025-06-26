@@ -21,6 +21,8 @@ In 2012, the center transitioned to the Texas A&M Institute of Biosciences and T
 
 - **MLOTS (2021)**: Creation of the Micro-physiological Lead Optimization and Toxicity Screening center, focusing on lead optimization and toxicity assessment using micro-physiological systems.
 
+- **DDRC (2025)**: Establishment of the Drug Discovery Resouce Center, merging the CDDP and HtFCP cores and establishing probe discovery capabilities.
+
 In September 2023, the center expanded into the state-of-the-art TMC3 Helix Park campus in Houston. This strategic move has significantly enhanced the center's infrastructure and collaborative potential. The relocation has enabled the center to integrate advanced artificial intelligence (AI) methodologies into ligand design, streamlining the identification of promising therapeutic candidates. Additionally, the new infrastructure supports sophisticated synthetic medicinal chemistry for both small molecule and peptide-based therapeutics, facilitating the design, synthesis, and optimization of novel compounds.
 
 The center also plays a pivotal role in training the next generation of scientists through programs like the Gulf Coast Consortium Research Evaluation and Commercialization Hub (GCC-REACH) and the Cancer Therapeutics Training Program (CTTP). GCC-REACH assists entrepreneurs in strategic planning for management and operations, providing resources and support to achieve value-added commercialization inflection points. The CTTP is a multi-institutional training program that prepares post-doctoral trainees for future careers in drug discovery research in both academia and the pharmaceutical industry.
@@ -28,6 +30,7 @@ The center also plays a pivotal role in training the next generation of scientis
 Through these developments, the Drug Discovery and Development Resource Center has become a pivotal resource for drug discovery and biomedical research, offering state-of-the-art technologies and expertise to researchers within Texas Medical Center community.
 
 # Acknowledgment of funding 
+1. The Drug Discovery Resource Center (DDRC) [CPRIT](https://cprit.texas.gov/grants-funded/grants/rp250505)
 1. The Combinatorial Drug Discovery Program (CDDP) [CPRIT](https://cprit.texas.gov/grants-funded/grants/rp150578), [Renewal](https://www.cprit.texas.gov/grants-funded/grants/rp200668)
 1. High-throughput Flow Cytometry Program (HtFCP) [CPRIT](https://cprit.texas.gov/grants-funded/grants/rp190581)
 1. Microphysiological Lead Optimization and Toxicity Screening (MLOTS) [CPRIT](https://cprit.texas.gov/grants-funded/grants/rp210108)
