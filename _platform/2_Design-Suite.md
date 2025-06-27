@@ -2,6 +2,9 @@
 title: "Drug Discovery and Generative Design"
 excerpt: "Our Generative AI Platform leverages cutting-edge tools and models to design high-quality ligands, enhancing the efficiency of the discovery process. By utilizing machine learning methods, we can generate novel compounds with desired properties, streamlining the initial stages of drug development.<br/><img src='/images/DESIGN.png'>"
 collection: portfolio
+author_profile: false
+layout: splash
+classes: landing
 ---
 # TAMU-3DRC: AI-Guided Academic Drug Discovery
 
