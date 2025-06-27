@@ -3,15 +3,105 @@ title: "Drug Discovery and Generative Design"
 excerpt: "Our Generative AI Platform leverages cutting-edge tools and models to design high-quality ligands, enhancing the efficiency of the discovery process. By utilizing machine learning methods, we can generate novel compounds with desired properties, streamlining the initial stages of drug development.<br/><img src='/images/DESIGN.png'>"
 collection: portfolio
 ---
+# TAMU-3DRC: AI-Guided Academic Drug Discovery
+
 ![Design](/images/DESIGN.png)
 
-Our generative AI platform provides cutting-edge services for ligand design, leveraging the expertise of our highly skilled team. We begin each project with an in-depth evaluation of prospective targets, crafting a bespoke strategy that incorporates all available data, such as protein structure and biological activity where available.
+At **TAMU-3DRC**, we specialize in modular, computation-first discovery strategies that bring together **artificial intelligence** and **deep domain expertise**. Our interdisciplinary team includes chemists, structural biologists, machine learning scientists, and informaticians who design flexible workflows for **probe and preclinical lead development**.
 
-Our platform is built on a rich foundation of AI-driven approaches. We have trained and databased multiple foundational generative chemistry models and quantitative structure-activity relationship (qSAR) models, allowing for rapid development and optimization for targets with established priors. Our design strategies integrate ligand-based techniques like variational autoencoders (VAE), active learning, Monte Carlo search, and qSAR.
+We support both hypothesis-driven and exploratory projects through a service model that emphasizes **academic-friendly integration** and **open-source science**.
 
-We also utilize structure-based approaches, focusing on fragment growing and space-filling methods to design new molecules. Additionally, we are exploring sequence-based classification and generative techniques to further expand our capabilities.
+---
 
-Our virtual screening platform utilizes state-of-the-art tools, including Gnina, DiffDock, and PharmcoNet, to efficiently identify promising compounds. We also perform in silico derisking using ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) analysis to ensure the drug-likeness and safety profile of the designed compounds. Reverse docking is employed to assess specificity, while multi-objective optimization is used to propose the highest quality small molecules for further development, optimizing for factors such as synthetic accessibility and drug-likeness.
+## Strategic Project Planning
 
-We offer these services as part of a collaborative framework that synergizes seamlessly with our other core programs, including synthetic chemistry and high-throughput screening (HTS). Together, we provide a comprehensive solution for the rational design and development of small molecule and peptide therapeutics.
+Our process starts with a **consultation and target evaluation**—assessing tractability, data readiness, and downstream feasibility. We are developing an intelligent, **multi-agent system** to assist in triaging projects, matching needs to the right technology stack and instrumentation, and aligning resources across the [GCC-iDDD](https://gcc.rice.edu/research-initiatives/drug-discovery) network.
 
+---
+
+## Guided AI, Not Just Automation
+
+All AI and machine learning workflows are **informed by expert scientists** in the loop. From feature selection to score weighting, domain knowledge shapes how we build and deploy predictive models.
+
+We use **[BIOVIA Pipeline Pilot](https://www.3ds.com/products/biovia/pipeline-pilot/](https://www.3ds.com/products/biovia))** to automate complex workflows—integrating structure prediction, descriptor generation, virtual screening, and ML-SAR analysis into repeatable and auditable pipelines.
+
+---
+
+## Our In Silico Discovery Stack
+
+### 🧬 Structure Prediction and Binding Models
+
+- **[AlphaFold2](https://github.com/deepmind/alphafold)** / **[ESMFold](https://github.com/facebookresearch/esm)**: Protein structure prediction  
+- **[RFAA](https://github.com/RosettaCommons/RosettaFoldAllAtom)**: All-atom folding with Rosetta refinement  
+- **[HighFold2](https://github.com/hongliangduan/HighFold2)**: High-accuracy folding for macrocyclic peptides with noncanonical residues  
+- **[DynamicBind](https://github.com/phbradley/DynamicBind)**: Ligand-induced folding and flexibility  
+- **[Boltz2](https://github.com/jwohlwend/boltz)**: Binding affinity prediction using Boltzmann-weighted scoring ensembles
+
+---
+
+### 🔍 Tiered Virtual Screening
+
+We screen libraries from **billions down to thousands** using a tiered approach:
+
+1. **1B+ Compounds**  
+   - [PharmacoNet](https://github.com/ljourdan/PharmacoNet) for pharmacophore-based prescreening  
+
+2. **500M Compounds**  
+   - [ADMET-AI](https://github.com/swansonk14/admet_ai): Predictive filtering for drug-like properties  
+   - Expert filtering, diversity clustering
+
+3. **≤1M Compounds**  
+   - [GNINA](https://github.com/gnina/gnina): GPU-accelerated docking and scoring  
+   - Selectivity and counter-screening
+
+Post-screening steps include **re-expansion**, **Boltz2-based rescoring**, and **SAR optimization** by our medicinal chemistry team.
+
+---
+
+### 🧪 Generative Chemistry & Library Design
+
+- **[POLYGON](https://github.com/molecularsets/polygon)**: VAE-based generative chemistry, retrained on Enamine and MCE libraries  
+- **[SyntheMol](https://github.com/swansonk14/SyntheMol)**: RL + MCTS with Chemprop models trained as Boltz2 surrogates  
+- **[SPMM](https://github.com/jinhojsk515/SPMM)**: Bidirectional pretraining for molecule/property generation
+
+These tools support **de novo design**, **polypharmacology**, and **first-in-class chemistry**.
+
+---
+
+### 🛠️ Hit-to-Lead Support
+
+- **[SciFinder](https://scifinder.cas.org/)**: Commercial synthesis planning and IP search  
+- **[AiZynthFinder](https://github.com/MolecularAI/aizynthfinder)**: AI-powered retrosynthesis  
+- **Custom Chemprop workflows**: Reaction condition prediction, synthetic route scoring
+
+---
+
+### 🧬 Macrocyclic & Peptide Modalities
+
+We are expanding efforts in **macrocyclics**, **peptidomimetics**, and **mini-protein design**:
+
+- **HighFold2** and **Boltz2** for conformational and ensemble modeling  
+- **[BindCraft](https://github.com/BioinfoMachineLearning/BindCraft)**: Binding-guided sequence optimization for peptide ligands
+
+---
+
+## Why Work With Us?
+
+- 🧠 **Diverse Expertise**: Domain-guided AI powered by structural biology, cheminformatics, and drug design  
+- 🛠️ **Modular Infrastructure**: Automated, scalable, and open science–oriented pipelines  
+- 🤝 **Academic Accessibility**: Designed to support hypothesis-driven and exploratory research  
+- 🧬 **End-to-End Solutions**: From virtual design to synthesis planning and hit evaluation
+
+---
+
+## We’re Looking for Collaborators
+
+We welcome partnerships in:
+
+- **Cancer Therapeutics**  
+- **Neurodegenerative Disease**  
+- **Inflammation & Immunology**  
+- **Phenotypic and Target-Based Screens**  
+- **Dual Modality and Multivalent Ligand Discovery**
+
+If you’re ready to explore your target or phenotype computationally, let’s talk.
