@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "The Texas A&M Drug Discovery and Development Resource (3DRC) Center"
+title: "The Texas A&M Drug Discovery and Development Resource Center (3DRC) "
 permalink: /resources/
 author_profile: true
 redirect_from:
@@ -15,6 +15,8 @@ The Consortium for Innovative Drug Discovery and Development (GCC IDDD) is a res
 # The CPRIT Cancer Therapeutics Training Program
 
 The Cancer Therapeutics Training Program (CTTP) is a multi-institutional post-doctoral training program funded by the CPRIT and is designed to prepare post-doctoral trainees for future careers in academic and/or commercial cancer therapeutics research and development. The goal of the program is to recruit and train scientists equipped with the essential skills and knowledge necessary to translate basic cancer research discoveries into commercially viable cancer therapeutics. The 3DRC accepts CTTP-fellows for core rotations and other training opportunities.
+
+---
 
 # Computing Resources
 ## DDRC-Dedicated Computing
@@ -73,6 +75,8 @@ A detailed description of drug libraries can be found [here](/library-details/).
 | TargetMol L9000 Apoptosis Compound Library          | Yes      | Yes         | Active  | [SDF](data/SDF/TargetMol_L9000_Apoptosis%20Compound%20Library.sdf) / [XLSX](data/XLSX/TargetMol_L9000_Apoptosis%20Compound%20Library.xlsx) |
 | UTKinase V5                                         | Yes      | Yes         | Active  | [SDF](data/SDF/UTKinase_V5.sdf) / [XLSX](data/XLSX/UTKinase_V5.xlsx) |
 
+---
+
 # Screening Resources
 ## Automated high-throughput screening platforms
 The 3DRC maintains and operates two major automated platforms for setting up in vitro high-throughput screening (HTS) assays, plus a fully integrated wash station and a suite of smaller walk-up systems for semi-automated workflows:
@@ -110,3 +114,5 @@ Changes in cellular metabolism have long been recognized as a fundamental featur
 
 ## TAMU-IBT Advanced Microscopy Core
 Several conventional high-content imaging systems are available to 3DRC through the TAMU-IBT Advanced Microscopy Core. For high content 3-D imaging or where oil-immersion is preferred, the 3DRC uses a **Nikon W1 Yokagawa spinning disk confocal** or a **General Electric Healthcare DeltaVision Elite** deconvolution microscope. Both of these platforms feature climate-controlled (temperature, humidity, CO2) automated stages, which provide a large range of live cell capabilities. Both microscopes have multidimensional acquisition (x,y,z, wavelength, time), up to 5 channels (fluorescence and brightfield/DIC), FRET, multi-point acquisition, large area acquisition (tiling), dual Autofocus (Hardware & contrast based), fast acquisition mode and 4x,10x,20x,40x air, 40x Oil, 60x oil, 100x oil objectives.
+
+---
