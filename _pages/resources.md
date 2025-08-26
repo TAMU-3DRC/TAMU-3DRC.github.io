@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 title: "The Texas A&M Drug Discovery and Development Resource Center (3DRC) "
 permalink: /resources/
 author_profile: false
