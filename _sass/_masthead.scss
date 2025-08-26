@@ -4,8 +4,8 @@
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: $primary-color;
+  border-bottom: 3px solid $secondary-color;
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -32,6 +32,7 @@
 
     a {
       text-decoration: none;
+      color: $masthead-link-color;
     }
   }
 }
