@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/20250416-tamh-tmc3houston-mb-23.jpg" alt="TMC3 campus" class="about-banner">
+<img src="/images/tmc3-crb.jpg" alt="TMC3 campus" class="about-banner">
 
 <section class="about-intro">
   <h1>About the Drug Discovery and Development Resource Center (3DRC)</h1>
