@@ -80,24 +80,15 @@ A detailed description of drug libraries can be found [here](/library-details/).
 # Screening Resources
 ## Automated High-Throughput Screening Platforms
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<img src="/images/20250416-tamh-tmc3houston-mb-23.jpg" alt="Automated HT Screening Platform" style="float: right; margin: 10px 0 10px 20px; width: 300px; border-radius: 6px;"/>
 
-  <!-- Right column: image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="/images/20250416-tamh-tmc3houston-mb-23.jpg" alt="Automated HT Screening Platform" style="max-width: 80%; border-radius: 6px;"/>
-  </div>
-  
-  <!-- Left column: text -->
-  <div style="flex: 2;">
-    The 3DRC maintains and operates two major automated platforms for setting up in vitro high-throughput screening (HTS) assays, plus a fully integrated wash station and a suite of smaller walk-up systems for semi-automated workflows:
-    <ul>
-      <li><strong>Automated Labcyte Echo 655:</strong> A “no-touch” acoustic dispenser that uses focused sound energy to transfer compounds from source plates to assay plates in sub-microliter volumes, minimizing cross-contamination and maximizing precision. An integrated Access robotic arm handles plates between the Echo, a Thermo Cytomat 6000A automated cell-culture incubator (189-plate capacity), and a Thermo Multidrop Combi reagent dispenser, fully automating the assay-setup workflow.</li>
-      <li><strong>Biomek i7 liquid-handling platform:</strong> Configured with a 96-channel pipetting head, an independent Span-8 arm, 100-nL pintools, and a rotating gripper, this system delivers both high precision and flexible deck access. It supports multiple plate formats and a wide range of HTS protocols—from reagent titrations to complex multi-step assays.</li>
-      <li><strong>Automated wash and reagent-addition station:</strong> Combines a Tecan HydroSpeed microplate washer with a Thermo Orbitor plate stacker (40-plate capacity) and an integrated Thermo Multidrop Combi dispenser. This station streamlines wash cycles, reagent additions, and plate storage to keep throughput high and hands-on time low.</li>
-      <li><strong>Standalone “walk-up” and semi-automated systems:</strong> Four Thermo Multidrop Combi dispensers and two Formulatrix Mantis liquid handlers are available for lower-throughput or user-driven assays. These bench-level platforms provide rapid turnaround for pilot screens, assay development, and follow-up experiments.</li>
-    </ul>
-  </div>
-</div>
+The 3DRC maintains and operates two major automated platforms for setting up in vitro high-throughput screening (HTS) assays, plus a fully integrated wash station and a suite of smaller walk-up systems for semi-automated workflows:
+* **Automated Labcyte Echo 655:** A “no-touch” acoustic dispenser that uses focused sound energy to transfer compounds from source plates to assay plates in sub-microliter volumes, minimizing cross-contamination and maximizing precision. An integrated Access robotic arm handles plates between the Echo, a Thermo Cytomat 6000A automated cell-culture incubator (189-plate capacity), and a Thermo Multidrop Combi reagent dispenser, fully automating the assay-setup workflow.  
+* **Biomek i7 liquid-handling platform:** Configured with a 96-channel pipetting head, an independent Span-8 arm, 100-nL pintools, and a rotating gripper, this system delivers both high precision and flexible deck access. It supports multiple plate formats and a wide range of HTS protocols—from reagent titrations to complex multi-step assays.  
+* **Automated wash and reagent-addition station:** Combines a Tecan HydroSpeed microplate washer with a Thermo Orbitor plate stacker (40-plate capacity) and an integrated Thermo Multidrop Combi dispenser. This station streamlines wash cycles, reagent additions, and plate storage to keep throughput high and hands-on time low.  
+* **Standalone “walk-up” and semi-automated systems:** Four Thermo Multidrop Combi dispensers and two Formulatrix Mantis liquid handlers are available for lower-throughput or user-driven assays. These bench-level platforms provide rapid turnaround for pilot screens, assay development, and follow-up experiments.  
+
+
 
 ## Automated Multi-modal Plate Reader
 The DDRC has a **Synergy Neo2**, manufactured by Agilent BioTek, which is a high-performance, hybrid multi-mode microplate reader engineered for high-throughput screening (HTS) applications. This system is integrated with the BioStack Neo plate stacker, delivering fully automated, walk-away operation for a wide range of assay formats, including biochemical, cell-based, and kinetic assays. The Synergy Neo2 employs patented Hybrid Technology, combining independent filter- and quadruple monochromator-based optical paths for optimal performance across detection modes such as UV-Vis absorbance, fluorescence intensity, luminescence, fluorescence polarization, time-resolved fluorescence (TRF), TR-FRET, BRET, and AlphaScreen®/AlphaLISA®. The reader features continuously variable bandwidths (3–50 nm in 1 nm increments), up to four photomultiplier tubes (PMTs) for ultra-fast measurements, and environmental controls including incubation to 70°C, CO₂/O₂ regulation, and programmable shaking, making it suitable for live-cell assays. The BioStack Neo plate stacker complements the reader by automating plate handling, with a 50-plate capacity, rapid plate exchange, and automated de-lidding features to enhance throughput and consistency, particularly for sensitive cell-based assays.
