@@ -18,7 +18,7 @@ We support both hypothesis-driven and exploratory projects through a service mod
 
 ## Strategic Project Planning
 
-Our process starts with a **consultation and target evaluation**—assessing tractability, data readiness, and downstream feasibility. We are developing an intelligent, **multi-agent system** to assist in triaging projects, matching needs to the right technology stack and instrumentation, and aligning resources across the [GCC-iDDD](https://gcc.rice.edu/research-initiatives/drug-discovery) network.
+Our process starts with a **consultation and target evaluation**—assessing tractability, data readiness, and downstream feasibility. We are developing an intelligent, **multi-agent system** to assist in triaging projects, matching needs to the right technology stack and instrumentation, and aligning resources across the [GCC-iDDD](https://www.gulfcoastconsortia.org/home/research/chemical-genomics/) network.
 
 ---
 
@@ -26,7 +26,7 @@ Our process starts with a **consultation and target evaluation**—assessing tra
 
 All AI and machine learning workflows are **informed by expert scientists** in the loop. From feature selection to score weighting, domain knowledge shapes how we build and deploy predictive models.
 
-We use **[BIOVIA Pipeline Pilot](https://www.3ds.com/products/biovia/pipeline-pilot/](https://www.3ds.com/products/biovia))** to automate complex workflows—integrating structure prediction, descriptor generation, virtual screening, and ML-SAR analysis into repeatable and auditable pipelines.
+We use **[BIOVIA Pipeline Pilot](https://www.3ds.com/products/biovia)** to automate complex workflows—integrating structure prediction, descriptor generation, virtual screening, and ML-SAR analysis into repeatable and auditable pipelines.
 
 ---
 
@@ -34,10 +34,10 @@ We use **[BIOVIA Pipeline Pilot](https://www.3ds.com/products/biovia/pipeline-pi
 
 ### 🧬 Structure Prediction and Binding Models
 
-- **[AlphaFold2](https://github.com/deepmind/alphafold)** / **[ESMFold](https://github.com/facebookresearch/esm)**: Protein structure prediction  
-- **[RFAA](https://github.com/RosettaCommons/RosettaFoldAllAtom)**: All-atom folding with Rosetta refinement  
+- **[AlphaFold2](https://github.com/google-deepmind/alphafold)** / **[ESMFold](https://github.com/facebookresearch/esm)**: Protein structure prediction  
+- **[RFAA](https://github.com/baker-laboratory/RoseTTAFold-All-Atom)**: All-atom folding with Rosetta refinement  
 - **[HighFold2](https://github.com/hongliangduan/HighFold2)**: High-accuracy folding for macrocyclic peptides with noncanonical residues  
-- **[DynamicBind](https://github.com/phbradley/DynamicBind)**: Ligand-induced folding and flexibility  
+- **[DynamicBind](https://github.com/luwei0917/DynamicBind)**: Ligand-induced folding and flexibility  
 - **[Boltz2](https://github.com/jwohlwend/boltz)**: Binding affinity prediction using Boltzmann-weighted scoring ensembles
 
 ---
@@ -47,7 +47,7 @@ We use **[BIOVIA Pipeline Pilot](https://www.3ds.com/products/biovia/pipeline-pi
 We screen libraries from **billions down to thousands** using a tiered approach:
 
 1. **1B+ Compounds**  
-   - [PharmacoNet](https://github.com/ljourdan/PharmacoNet) for pharmacophore-based prescreening  
+   - [PharmacoNet](https://github.com/SeonghwanSeo/PharmacoNet) for pharmacophore-based prescreening  
 
 2. **500M Compounds**  
    - [ADMET-AI](https://github.com/swansonk14/admet_ai): Predictive filtering for drug-like properties  
@@ -63,7 +63,7 @@ Post-screening steps include **re-expansion**, **Boltz2-based rescoring**, and *
 
 ### 🧪 Generative Chemistry & Library Design
 
-- **[POLYGON](https://github.com/molecularsets/polygon)**: VAE-based generative chemistry, retrained on Enamine and MCE libraries  
+- **[POLYGON](https://github.com/bpmunson/polygon)**: VAE-based generative chemistry, retrained on Enamine and MCE libraries  
 - **[SyntheMol](https://github.com/swansonk14/SyntheMol)**: RL + MCTS with Chemprop models trained as Boltz2 surrogates  
 - **[SPMM](https://github.com/jinhojsk515/SPMM)**: Bidirectional pretraining for molecule/property generation
 
@@ -84,7 +84,7 @@ These tools support **de novo design**, **polypharmacology**, and **first-in-cla
 We are expanding efforts in **macrocyclics**, **peptidomimetics**, and **mini-protein design**:
 
 - **HighFold2** and **Boltz2** for conformational and ensemble modeling  
-- **[BindCraft](https://github.com/BioinfoMachineLearning/BindCraft)**: Binding-guided sequence optimization for peptide ligands
+- **[BindCraft](https://github.com/martinpacesa/BindCraft)**: Binding-guided sequence optimization for peptide ligands
 
 ---
 
