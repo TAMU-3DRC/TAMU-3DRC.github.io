@@ -10,11 +10,11 @@ redirect_from:
 ---
 
 <section class="about-intro">
-  <h1>About the 3D Drug Discovery and Development Center</h1>
+  <h1>About the Drug Discovery and Development Resource Center (3DRC)</h1>
   <p>
-    Welcome to TAMU 3DRC! We’re dedicated to driving innovation at the intersection of
-    biotechnology, engineering, and collaborative research. Explore our journey through
-    the milestones that have shaped our mission and vision.
+Welcome to the Texas A&M Drug Discovery & Development Resource Center (3DRC)—your gateway to translational science at the heart of the Texas Medical Center. Anchored within the Institute of Biosciences & Technology (IBT), we connect investigators with a region-wide ecosystem of advanced technology cores and the Gulf Coast Consortia (GCC) to accelerate ideas from target to therapeutic. Our capabilities span large-scale virtual screening and generative ligand design, high-throughput biochemical assays, quantitative binding kinetics analysis, cell-based screening for hit discovery and validation, microphysiological systems for lead optimization, and commercialization support.  
+
+Explore our journey and milestones that reflect our mission: to advance innovative therapies through collaborative science, rigorous methods, and access to best-in-class instrumentation and expertise.
   </p>
 </section>
 
