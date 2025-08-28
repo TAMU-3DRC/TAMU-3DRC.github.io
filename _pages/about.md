@@ -9,6 +9,8 @@ redirect_from:
   - /about.html
 ---
 
+<img src="/images/20250416-tamh-tmc3houston-mb-23.jpg" alt="TMC3 campus" class="about-banner">
+
 <section class="about-intro">
   <h1>About the Drug Discovery and Development Resource Center (3DRC)</h1>
   <p>
@@ -21,10 +23,26 @@ Explore our journey and milestones that reflect our mission: to advance innovati
 <section class="timeline-section">
   <div class="timeline-controls">
     <input type="search" id="timeline-search" placeholder="Search timeline…" aria-label="Search timeline">
-    <div id="timeline-filters">
+    <div id="timeline-filters" class="filter-buttons">
       {% assign categories = site.data.timeline | map: 'category' | uniq | sort %}
       {% for cat in categories %}
-        <label><input type="checkbox" value="{{ cat | downcase }}" checked> {{ cat }}</label>
+        <button class="filter-btn active" data-category="{{ cat | downcase }}" aria-pressed="true">
+          {% case cat | downcase %}
+            {% when 'funding' %}
+              <span class="icon">💰</span>
+            {% when 'milestone' %}
+              <span class="icon">🏁</span>
+            {% when 'consortia' %}
+              <span class="icon">🤝</span>
+            {% when 'program' %}
+              <span class="icon">📋</span>
+            {% when 'training' %}
+              <span class="icon">🎓</span>
+            {% else %}
+              <span class="icon">🔎</span>
+          {% endcase %}
+          <span class="label">{{ cat }}</span>
+        </button>
       {% endfor %}
     </div>
   </div>
@@ -88,9 +106,33 @@ Explore our journey and milestones that reflect our mission: to advance innovati
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-#timeline-filters label {
-  margin-right: 1rem;
+#timeline-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f0f0f0;
+  cursor: pointer;
   text-transform: capitalize;
+}
+.filter-btn .icon { font-size: 1.1rem; }
+.filter-btn.active {
+  background: #0a9396;
+  color: #fff;
+  border-color: #0a9396;
+}
+.about-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 .timeline {
@@ -164,14 +206,17 @@ Explore our journey and milestones that reflect our mission: to advance innovati
 </style>
 
 <script>
+
 (function() {
   const searchInput = document.getElementById('timeline-search');
-  const filterBoxes = document.querySelectorAll('#timeline-filters input[type=checkbox]');
+  const filterButtons = document.querySelectorAll('#timeline-filters button');
   const items = document.querySelectorAll('.timeline-item');
 
   function applyFilters() {
     const query = searchInput.value.toLowerCase();
-    const active = Array.from(filterBoxes).filter(cb => cb.checked).map(cb => cb.value);
+    const active = Array.from(filterButtons)
+      .filter(btn => btn.classList.contains('active'))
+      .map(btn => btn.dataset.category);
     items.forEach(item => {
       const text = item.innerText.toLowerCase();
       const cat = item.dataset.category;
@@ -182,7 +227,13 @@ Explore our journey and milestones that reflect our mission: to advance innovati
   }
 
   searchInput.addEventListener('input', applyFilters);
-  filterBoxes.forEach(cb => cb.addEventListener('change', applyFilters));
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+      btn.setAttribute('aria-pressed', btn.classList.contains('active'));
+      applyFilters();
+    });
+  });
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
