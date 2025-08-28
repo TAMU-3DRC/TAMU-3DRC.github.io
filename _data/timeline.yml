@@ -1,0 +1,145 @@
+# _data/timeline.yml
+# Add future events by appending new items; keep ISO dates.
+- id: gcc-dunn-launch
+  date: 2006-01-01
+  title: Launch of GCC Chemical Genomics Core
+  category: Consortia
+  icon: /images/default-icon.svg
+  summary: Founded as the High-Throughput Screening Core for Chemical Genomics under the Gulf Coast Consortia with support from the John S. Dunn Foundation.
+  description: >
+    Established at UTHealth as part of the GCC, led by Dr. Peter J. A. Davies and Dr. Clifford Stephan, providing high-throughput tools for chemical genomics and drug discovery.
+  links:
+    - label: Gulf Coast Consortia
+      url: https://www.gulfcoastconsortia.org/
+    - label: John S. Dunn Foundation
+      url: https://www.jsdfound.org/
+
+- id: move-to-ibt
+  date: 2012-01-01
+  title: Transition to Texas A&M IBT (Houston)
+  category: Milestone
+  icon: /images/default-icon.svg
+  summary: Center transitions to the Texas A&M Institute of Biosciences and Technology.
+  description: >
+    Operations and leadership move under Texas A&M IBT, aligning with broader Texas Medical Center collaborations and service expansion.
+
+- id: cddp-2015
+  date: 2015-07-01
+  title: CPRIT CFSA — CDDP (RP150578)
+  category: Funding
+  icon: /images/default-icon.svg
+  summary: CPRIT Core Facility Support Award establishes the Combinatorial Drug Discovery Program.
+  description: >
+    Funding to expand high-throughput screening and combinatorial discovery infrastructure serving investigators across the GCC and Texas Medical Center.
+  links:
+    - label: CPRIT CDDP (RP150578)
+      url: https://cprit.texas.gov/grants-funded/grants/rp150578
+
+- id: htfcp-2019
+  date: 2019-09-01
+  title: CPRIT CFSA — HtFCP (RP190581)
+  category: Funding
+  icon: /images/default-icon.svg
+  summary: High Throughput Flow Cytometry Program launched to broaden assay capabilities.
+  description: >
+    Adds high-content flow cytometry for screening, mechanism profiling, and cell-based analytics.
+  links:
+    - label: CPRIT HtFCP (RP190581)
+      url: https://cprit.texas.gov/grants-funded/grants/rp190581
+
+- id: cddp-renewal-2020
+  date: 2020-08-01
+  title: CPRIT CFSA — CDDP Renewal (RP200668)
+  category: Funding
+  icon: /images/default-icon.svg
+  summary: Renewal strengthens CDDP instruments, SOPs, and user support.
+  description: >
+    Deepens capacity and improves reliability for large-scale screening and follow-up.
+  links:
+    - label: CPRIT CDDP Renewal (RP200668)
+      url: https://www.cprit.texas.gov/grants-funded/grants/rp200668
+
+- id: mlots-2021
+  date: 2021-12-01
+  title: CPRIT CFSA — MLOTS (RP210108)
+  category: Funding
+  icon: /images/default-icon.svg
+  summary: Micro-physiological Lead Optimization & Toxicity Screening center created.
+  description: >
+    Introduces microphysiological systems to improve translational relevance for lead optimization and toxicity assessment.
+  links:
+    - label: CPRIT MLOTS (RP210108)
+      url: https://cprit.texas.gov/grants-funded/grants/rp210108
+
+- id: tmc3-move-2023
+  date: 2023-09-15
+  title: Relocation to TMC3 Helix Park CRB
+  category: Milestone
+  icon: /images/default-icon.svg
+  summary: Expansion into the new TMC3 Collaborative Research Building in Houston.
+  description: >
+    Upgraded space improves collaboration and enables deeper AI-driven ligand design and advanced synthetic/medicinal chemistry.
+  links:
+    - label: TMC3 Helix Park CRB (map)
+      url: https://www.google.com/maps/place/TMC3+Collaborative+Building/
+
+- id: txsact-mira
+  date: 2023-01-01
+  title: CPRIT MIRA — TxSACT
+  category: Program
+  icon: /images/default-icon.svg
+  summary: Multi-investigator CPRIT program accelerates collaborative drug discovery.
+  description: >
+    TxSACT coordinates cross-lab projects, infrastructure, and training to scale discovery and translation efforts.
+  links:
+    - label: TxSACT Overview
+      url: https://www.gulfcoastconsortia.org/
+
+- id: ncats-tissue-chip
+  date: 2023-06-01
+  title: NCATS Tissue-Chip Testing/Validation
+  category: Program
+  icon: /images/default-icon.svg
+  summary: Tissue-chip (microphysiological) validation activities expand translational modeling.
+  description: >
+    Brings microphysiological systems into routine evaluation pipelines for drug discovery and toxicity testing.
+  links:
+    - label: NCATS Tissue Chip Program
+      url: https://ncats.nih.gov/tissuechip
+
+- id: ddr-center-2025
+  date: 2025-03-01
+  title: CPRIT CFSA — DDRC (RP250505)
+  category: Funding
+  icon: /images/default-icon.svg
+  summary: Drug Discovery Resource Center consolidates CDDP & HtFCP and adds probe discovery.
+  description: >
+    Forms the integrated 3DRC hub with screening, analytics, and AI-enabled design for small molecules and peptides.
+  links:
+    - label: CPRIT DDRC (RP250505)
+      url: https://cprit.texas.gov/grants-funded/grants/rp250505
+
+# Optional training entries (kept for completeness)
+- id: cttp-training
+  date: 2021-09-01
+  title: Cancer Therapeutics Training Program (CTTP)
+  category: Training
+  icon: /images/default-icon.svg
+  summary: Multi-institutional postdoctoral training in academic and industry drug discovery.
+  description: >
+    Prepares fellows with hands-on experience across screening, medicinal chemistry, and translation.
+  links:
+    - label: CPRIT CTTP (RP210043)
+      url: https://cprit.texas.gov/grants-funded/grants/rp210043
+
+- id: gcc-reach
+  date: 2018-09-01
+  title: GCC-REACH (NIH REACH)
+  category: Training
+  icon: /images/default-icon.svg
+  summary: Entrepreneurial training and commercialization support for biomedical innovations.
+  description: >
+    Assists teams with strategy and milestones to reach key value-inflection points.
+  links:
+    - label: GCC-REACH
+      url: https://www.gccreach.org/
