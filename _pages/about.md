@@ -27,23 +27,10 @@ redirect_from:
   <div class="timeline-controls">
     <input type="search" id="timeline-search" placeholder="Search timeline…" aria-label="Search timeline">
     <div id="timeline-filters" class="filter-buttons">
-      {% assign categories = site.data.timeline | map: 'category' | uniq | sort %}
+      {% assign categories = site.data.timeline | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
       {% for cat in categories %}
         <button class="filter-btn active" data-category="{{ cat | downcase }}" aria-pressed="true">
-          {% case cat | downcase %}
-            {% when 'funding' %}
-              <span class="icon">💰</span>
-            {% when 'milestone' %}
-              <span class="icon">🏁</span>
-            {% when 'consortia' %}
-              <span class="icon">🤝</span>
-            {% when 'program' %}
-              <span class="icon">📋</span>
-            {% when 'training' %}
-              <span class="icon">🎓</span>
-            {% else %}
-              <span class="icon">🔎</span>
-          {% endcase %}
+          <span class="icon"><img src="/images/{{ cat | downcase }}.svg" alt="{{ cat }}"></span>
           <span class="label">{{ cat }}</span>
         </button>
       {% endfor %}
@@ -53,7 +40,7 @@ redirect_from:
   <ul class="timeline">
     {% assign events = site.data.timeline | sort: 'date' %}
     {% for event in events %}
-    <li class="timeline-item" data-category="{{ event.category | downcase }}">
+    <li class="timeline-item" data-category="{{ event.categories | join: ' ' | downcase }}">
       <div class="timeline-icon">
         <img src="{{ event.icon }}" alt="" onerror="this.onerror=null;this.src='/images/default-icon.svg';">
       </div>
@@ -61,7 +48,7 @@ redirect_from:
         <h3>{{ event.title }}</h3>
         <p class="timeline-meta">
           <time datetime="{{ event.date }}">{{ event.date | date: '%Y-%m-%d' }}</time>
-          • {{ event.category }}
+          • {{ event.categories | join: ', ' }}
         </p>
         <p>{{ event.summary }}</p>
         <details>
@@ -126,9 +113,12 @@ redirect_from:
   cursor: pointer;
   text-transform: capitalize;
 }
-.filter-btn .icon {
-  font-size: 1.1rem;
-  color: #500000;
+.filter-btn .icon img {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.filter-btn.active .icon img {
+  filter: invert(1);
 }
 .filter-btn.active {
   background: #500000;
@@ -200,11 +190,11 @@ redirect_from:
 }
 
 /* category accent colours */
-.timeline-item[data-category='funding'] .timeline-icon { background: #500000; }
-.timeline-item[data-category='milestone'] .timeline-icon { background: #707373; }
-.timeline-item[data-category='consortia'] .timeline-icon { background: #500000; }
-.timeline-item[data-category='program'] .timeline-icon { background: #707373; }
-.timeline-item[data-category='training'] .timeline-icon { background: #500000; }
+.timeline-item[data-category~='funding'] .timeline-icon { background: #500000; }
+.timeline-item[data-category~='milestone'] .timeline-icon { background: #707373; }
+.timeline-item[data-category~='consortia'] .timeline-icon { background: #500000; }
+.timeline-item[data-category~='program'] .timeline-icon { background: #707373; }
+.timeline-item[data-category~='training'] .timeline-icon { background: #500000; }
 
 @media (max-width: 600px) {
   .timeline-item { padding-left: 60px; }
@@ -226,9 +216,9 @@ redirect_from:
       .map(btn => btn.dataset.category);
     items.forEach(item => {
       const text = item.innerText.toLowerCase();
-      const cat = item.dataset.category;
+      const cats = item.dataset.category.split(' ');
       const matchText = !query || text.includes(query);
-      const matchCat = active.includes(cat);
+      const matchCat = active.some(cat => cats.includes(cat));
       item.style.display = matchText && matchCat ? '' : 'none';
     });
   }

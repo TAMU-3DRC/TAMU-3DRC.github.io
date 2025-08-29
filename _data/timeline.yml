@@ -3,8 +3,8 @@
 - id: gcc-dunn-launch
   date: 2006-01-01
   title: Launch of GCC Chemical Genomics Core
-  category: Consortia
-  icon: /images/default-icon.svg
+  categories: [Consortia]
+  icon: /images/consortia.svg
   summary: Founded as the High-Throughput Screening Core for Chemical Genomics under the Gulf Coast Consortia with support from the John S. Dunn Foundation.
   description: >
     Established at UTHealth as part of the GCC, led by Dr. Peter J. A. Davies and Dr. Clifford Stephan, providing high-throughput tools for chemical genomics and drug discovery.
@@ -17,8 +17,8 @@
 - id: move-to-ibt
   date: 2012-01-01
   title: Transition to Texas A&M IBT (Houston)
-  category: Milestone
-  icon: /images/default-icon.svg
+  categories: [Milestone]
+  icon: /images/milestone.svg
   summary: Center transitions to the Texas A&M Institute of Biosciences and Technology.
   description: >
     Operations and leadership move under Texas A&M IBT, aligning with broader Texas Medical Center collaborations and service expansion.
@@ -26,8 +26,8 @@
 - id: cddp-2015
   date: 2015-07-01
   title: CPRIT CFSA — GCC-CDDP (RP150578)
-  category: Funding
-  icon: /images/default-icon.svg
+  categories: [Funding]
+  icon: /images/funding.svg
   summary: CPRIT Core Facility Support Award establishes the Gulf Coast Consortia Combinatorial Drug Discovery Program.
   description: >
     Funding to expand high-throughput screening and combinatorial discovery infrastructure serving investigators across the GCC and Texas Medical Center.
@@ -38,8 +38,8 @@
 - id: htfcp-2019
   date: 2019-09-01
   title: CPRIT CFSA — GCC-HtFCP (RP190581)
-  category: Funding
-  icon: /images/default-icon.svg
+  categories: [Funding]
+  icon: /images/funding.svg
   summary: the Gulf Coast Consortia High Throughput Flow Cytometry Program launched to broaden assay capabilities.
   description: >
     Adds high-content flow cytometry for screening, mechanism profiling, and cell-based analytics.
@@ -50,8 +50,8 @@
 - id: cddp-renewal-2020
   date: 2020-08-01
   title: CPRIT CFSA — GCC-CDDP Renewal (RP200668)
-  category: Funding
-  icon: /images/default-icon.svg
+  categories: [Funding]
+  icon: /images/funding.svg
   summary: Renewal strengthens CDDP instruments, SOPs, and user support.
   description: >
     Deepens capacity and improves reliability for large-scale screening and follow-up.
@@ -62,8 +62,8 @@
 - id: mlots-2021
   date: 2021-12-01
   title: CPRIT CFSA — GCC-MLOTS (RP210108)
-  category: Funding
-  icon: /images/default-icon.svg
+  categories: [Funding]
+  icon: /images/funding.svg
   summary: the Gulf Coast Consortia Micro-physiological Lead Optimization & Toxicity Screening center created.
   description: >
     Introduces microphysiological systems to improve translational relevance for lead optimization and toxicity assessment.
@@ -74,8 +74,8 @@
 - id: tmc3-move-2023
   date: 2023-09-15
   title: Relocation to TMC3 Helix Park CRB
-  category: Milestone
-  icon: /images/default-icon.svg
+  categories: [Milestone]
+  icon: /images/milestone.svg
   summary: Expansion into the new TMC3 Collaborative Research Building in Houston.
   description: >
     Upgraded space improves collaboration and enables deeper AI-driven ligand design and advanced synthetic/medicinal chemistry.
@@ -86,8 +86,8 @@
 - id: txsact-mira
   date: 2011-03-24
   title: CPRIT MIRA — TxSACT
-  category: Consortia
-  icon: /images/default-icon.svg
+  categories: [Funding, Consortia]
+  icon: /images/funding.svg
   summary: Multi-investigator CPRIT program accelerates collaborative drug discovery.
   description: >
     TxSACT coordinates cross-lab projects, infrastructure, and training to scale discovery and translation efforts.
@@ -98,8 +98,8 @@
 - id: ncats-tissue-chip
   date: 2023-06-01
   title: NCATS Tissue-Chip Testing/Validation
-  category: Consortia
-  icon: /images/default-icon.svg
+  categories: [Consortia]
+  icon: /images/consortia.svg
   summary: Tissue-chip (microphysiological) validation activities expand translational modeling.
   description: >
     Brings microphysiological systems into routine evaluation pipelines for drug discovery and toxicity testing.
@@ -110,8 +110,8 @@
 - id: ddr-center-2025
   date: 2025-03-01
   title: CPRIT CFSA — GCC-DDRC (RP250505)
-  category: Funding
-  icon: /images/default-icon.svg
+  categories: [Funding]
+  icon: /images/funding.svg
   summary: the Gulf Coast Consortia Drug Discovery Resource Center consolidates CDDP & HtFCP and adds probe discovery.
   description: >
     Forms the integrated 3DRC hub with screening, analytics, and AI-enabled design for small molecules and peptides.
@@ -123,8 +123,8 @@
 - id: cttp-training
   date: 2021-05-19
   title: GCC-Cancer Therapeutics Training Program (CTTP)
-  category: Training
-  icon: /images/default-icon.svg
+  categories: [Training]
+  icon: /images/training.svg
   summary: A Gulf Coast Consortia Multi-institutional postdoctoral training in academic and industry drug discovery.
   description: >
     Prepares fellows with hands-on experience across screening, medicinal chemistry, and translation.
@@ -135,8 +135,8 @@
 - id: gcc-reach
   date: 2018-09-01
   title: GCC-REACH (NIH REACH)
-  category: Training
-  icon: /images/default-icon.svg
+  categories: [Training]
+  icon: /images/training.svg
   summary: Entrepreneurial training and commercialization support for biomedical innovations.
   description: >
     Assists teams with strategy and milestones to reach key value-inflection points.
