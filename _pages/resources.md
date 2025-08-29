@@ -6,6 +6,8 @@ author_profile: true
 redirect_from:
   - /resources
 ---
+# The Texas A&M Drug Discovery and Development Resource Center (3DRC)
+
 Is a Texas A&M-approved and regulated BSL2 facility that occupies approximately 7000 sq. ft. in the TMC3 Helix Park Collaborative Research Building, Texas Medical Center, Houston, Texas. It supports all stages of in silico and in vitro preclinical drug discovery and development. It is well-equipped to perform virtual screening, medicinal chemistry, high-throughput screening, and data analysis in this proposal. The core provides industry-standard computational resources, synthetic chemistry, liquid handling, and high-throughput endpoint detection capabilities for scientists conducting chemical, chemical-genomic, and drug discovery research. It can also support biochemical, cell-based, and foundational organism library screens. In addition to traditional high-throughput screening, our facility supports the development of specialized capabilities for lower-throughput drug discovery and development needs, including optical metabolic imaging, microelectrode arrays, and impedance systems for discovery and toxicity testing, as well as spectral flow for high-complexity biomarker development and testing.
 
 # The Gulf Coast Consortium for Innovative Drug Discovery and Development
