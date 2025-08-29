@@ -83,17 +83,18 @@ redirect_from:
 
 <style>
 .about-intro {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto 3rem;
+  text-align: justify;
+  width: 100%;
+  margin: 0 0 3rem;
 }
 .about-intro h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 .about-intro p {
   font-size: 1.15rem;
-  color: #555;
+  color: #707373;
 }
 
 .timeline-section { margin-top: 2rem; }
@@ -106,7 +107,7 @@ redirect_from:
 }
 #timeline-search {
   padding: 0.5rem 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #707373;
   border-radius: 4px;
 }
 #timeline-filters {
@@ -119,17 +120,20 @@ redirect_from:
   align-items: center;
   gap: 0.25rem;
   padding: 0.4rem 0.6rem;
-  border: 1px solid #ccc;
+  border: 1px solid #707373;
   border-radius: 4px;
   background: #f0f0f0;
   cursor: pointer;
   text-transform: capitalize;
 }
-.filter-btn .icon { font-size: 1.1rem; }
+.filter-btn .icon {
+  font-size: 1.1rem;
+  color: #500000;
+}
 .filter-btn.active {
-  background: #0a9396;
+  background: #500000;
   color: #fff;
-  border-color: #0a9396;
+  border-color: #500000;
 }
 .about-banner {
   width: 100%;
@@ -172,7 +176,7 @@ redirect_from:
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #0a9396;
+  background: #500000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,16 +195,16 @@ redirect_from:
 }
 .timeline-meta {
   font-size: 0.9rem;
-  color: #666;
+  color: #707373;
   margin-bottom: 0.5rem;
 }
 
 /* category accent colours */
-.timeline-item[data-category='funding'] .timeline-icon { background: #0a9396; }
-.timeline-item[data-category='milestone'] .timeline-icon { background: #3a5a40; }
-.timeline-item[data-category='consortia'] .timeline-icon { background: #588157; }
-.timeline-item[data-category='program'] .timeline-icon { background: #005f73; }
-.timeline-item[data-category='training'] .timeline-icon { background: #94d2bd; }
+.timeline-item[data-category='funding'] .timeline-icon { background: #500000; }
+.timeline-item[data-category='milestone'] .timeline-icon { background: #707373; }
+.timeline-item[data-category='consortia'] .timeline-icon { background: #500000; }
+.timeline-item[data-category='program'] .timeline-icon { background: #707373; }
+.timeline-item[data-category='training'] .timeline-icon { background: #500000; }
 
 @media (max-width: 600px) {
   .timeline-item { padding-left: 60px; }
