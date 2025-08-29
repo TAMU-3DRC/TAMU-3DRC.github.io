@@ -25,50 +25,50 @@
 
 - id: cddp-2015
   date: 2015-07-01
-  title: CPRIT CFSA — CDDP (RP150578)
+  title: CPRIT CFSA — GCC-CDDP (RP150578)
   category: Funding
   icon: /images/default-icon.svg
-  summary: CPRIT Core Facility Support Award establishes the Combinatorial Drug Discovery Program.
+  summary: CPRIT Core Facility Support Award establishes the Gulf Coast Consortia Combinatorial Drug Discovery Program.
   description: >
     Funding to expand high-throughput screening and combinatorial discovery infrastructure serving investigators across the GCC and Texas Medical Center.
   links:
-    - label: CPRIT CDDP (RP150578)
+    - label: CPRIT GCC-CDDP (RP150578)
       url: https://cprit.texas.gov/grants-funded/grants/rp150578
 
 - id: htfcp-2019
   date: 2019-09-01
-  title: CPRIT CFSA — HtFCP (RP190581)
+  title: CPRIT CFSA — GCC-HtFCP (RP190581)
   category: Funding
   icon: /images/default-icon.svg
-  summary: High Throughput Flow Cytometry Program launched to broaden assay capabilities.
+  summary: the Gulf Coast Consortia High Throughput Flow Cytometry Program launched to broaden assay capabilities.
   description: >
     Adds high-content flow cytometry for screening, mechanism profiling, and cell-based analytics.
   links:
-    - label: CPRIT HtFCP (RP190581)
+    - label: CPRIT GCC-HtFCP (RP190581)
       url: https://cprit.texas.gov/grants-funded/grants/rp190581
 
 - id: cddp-renewal-2020
   date: 2020-08-01
-  title: CPRIT CFSA — CDDP Renewal (RP200668)
+  title: CPRIT CFSA — GCC-CDDP Renewal (RP200668)
   category: Funding
   icon: /images/default-icon.svg
   summary: Renewal strengthens CDDP instruments, SOPs, and user support.
   description: >
     Deepens capacity and improves reliability for large-scale screening and follow-up.
   links:
-    - label: CPRIT CDDP Renewal (RP200668)
+    - label: CPRIT GCC-CDDP Renewal (RP200668)
       url: https://www.cprit.texas.gov/grants-funded/grants/rp200668
 
 - id: mlots-2021
   date: 2021-12-01
-  title: CPRIT CFSA — MLOTS (RP210108)
+  title: CPRIT CFSA — GCC-MLOTS (RP210108)
   category: Funding
   icon: /images/default-icon.svg
-  summary: Micro-physiological Lead Optimization & Toxicity Screening center created.
+  summary: the Gulf Coast Consortia Micro-physiological Lead Optimization & Toxicity Screening center created.
   description: >
     Introduces microphysiological systems to improve translational relevance for lead optimization and toxicity assessment.
   links:
-    - label: CPRIT MLOTS (RP210108)
+    - label: CPRIT GCC-MLOTS (RP210108)
       url: https://cprit.texas.gov/grants-funded/grants/rp210108
 
 - id: tmc3-move-2023
@@ -84,9 +84,9 @@
       url: https://www.google.com/maps/place/TMC3+Collaborative+Building/
 
 - id: txsact-mira
-  date: 2023-01-01
+  date: 2011-03-24
   title: CPRIT MIRA — TxSACT
-  category: Program
+  category: Consortia
   icon: /images/default-icon.svg
   summary: Multi-investigator CPRIT program accelerates collaborative drug discovery.
   description: >
@@ -98,7 +98,7 @@
 - id: ncats-tissue-chip
   date: 2023-06-01
   title: NCATS Tissue-Chip Testing/Validation
-  category: Program
+  category: Consortia
   icon: /images/default-icon.svg
   summary: Tissue-chip (microphysiological) validation activities expand translational modeling.
   description: >
@@ -109,23 +109,23 @@
 
 - id: ddr-center-2025
   date: 2025-03-01
-  title: CPRIT CFSA — DDRC (RP250505)
+  title: CPRIT CFSA — GCC-DDRC (RP250505)
   category: Funding
   icon: /images/default-icon.svg
-  summary: Drug Discovery Resource Center consolidates CDDP & HtFCP and adds probe discovery.
+  summary: the Gulf Coast Consortia Drug Discovery Resource Center consolidates CDDP & HtFCP and adds probe discovery.
   description: >
     Forms the integrated 3DRC hub with screening, analytics, and AI-enabled design for small molecules and peptides.
   links:
-    - label: CPRIT DDRC (RP250505)
+    - label: CPRIT GCC-DDRC (RP250505)
       url: https://cprit.texas.gov/grants-funded/grants/rp250505
 
 # Optional training entries (kept for completeness)
 - id: cttp-training
-  date: 2021-09-01
-  title: Cancer Therapeutics Training Program (CTTP)
+  date: 2021-05-19
+  title: GCC-Cancer Therapeutics Training Program (CTTP)
   category: Training
   icon: /images/default-icon.svg
-  summary: Multi-institutional postdoctoral training in academic and industry drug discovery.
+  summary: A Gulf Coast Consortia Multi-institutional postdoctoral training in academic and industry drug discovery.
   description: >
     Prepares fellows with hands-on experience across screening, medicinal chemistry, and translation.
   links:
