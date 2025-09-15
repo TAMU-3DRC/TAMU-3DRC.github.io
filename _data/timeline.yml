@@ -194,9 +194,9 @@
 - id: milestone-rp160710-tnbc-platform-2016
   date: 2016-08-17
   title: CPRIT MIRA — TNBC Resistance Platform Trial (RP160710)
-  categories: [Funding, Milestone, Consortia]
+  categories: [Funding, Consortia]
   icon: /images/milestone.svg
-  summary: Randomized clinical trial platform at MD Anderson (PI: William F. Symmans) to overcome therapy resistance in triple-negative breast cancer.
+  summary: Randomized clinical trial platform at MD Anderson to overcome therapy resistance in triple-negative breast cancer.
   description: >
     Platform trial integrates molecular triaging and imaging-guided neoadjuvant strategies for TNBC.
     High-throughput screening to identify and phenotype resistance mechanisms.
