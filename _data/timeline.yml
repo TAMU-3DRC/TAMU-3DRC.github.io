@@ -121,7 +121,6 @@
     - label: CPRIT GCC-DDRC (RP250505)
       url: https://cprit.texas.gov/grants-funded/grants/rp250505
 
-# Optional training entries (kept for completeness)
 - id: cttp-training
   date: 2021-05-19
   title: GCC-Cancer Therapeutics Training Program (CTTP)
@@ -145,3 +144,67 @@
   links:
     - label: GCC-REACH
       url: https://www.gccreach.org/
+
+- id: milestone-johnson-alisertib-pembro-2020
+  date: 2020-09-15
+  title: NCT04555837 — Alisertib + Pembrolizumab in Rb-Deficient HNSCC
+  categories: [Milestone]
+  icon: /images/milestone.svg
+  summary: Phase I/II trial at MD Anderson testing Aurora kinase A inhibition with PD-1 blockade in Rb-deficient, immunotherapy-refractory HNSCC.
+  description: >
+    Preliminary data from GCC-CDDP/HtFCP high-throughput pharmacogenomic and cell-based profiling
+    demonstrated AURKA dependency in Rb-deficient HNSCC and supported combinatorial immunotherapy,
+    directly informing drug selection, biomarker strategy, and protocol development for this trial.
+  links:
+    - label: ClinicalTrials.gov
+      url: https://clinicaltrials.gov/study/NCT04555837
+
+- id: milestone-johnson-bimiralisib-notch1-2019
+  date: 2019-01-25
+  title: NCT03740100 — Bimiralisib in NOTCH1 Loss-of-Function HNSCC
+  categories: [Milestone]
+  icon: /images/milestone.svg
+  summary: Open-label, single-arm study evaluating PI3K/mTOR inhibition in NOTCH1-LOF head and neck squamous cell carcinoma.
+  description: >
+    Preliminary discovery work powered by GCC-CDDP resources identified PI3K/mTOR pathway
+    vulnerabilities in NOTCH1-LOF HNSCC through unbiased pharmacogenomic screening, guiding
+    the choice of bimiralisib and the genomically defined eligibility criteria used in the trial.
+  links:
+    - label: ClinicalTrials.gov
+      url: https://clinicaltrials.gov/study/NCT03740100
+    - label: ASCO Abstract (study design)
+      url: https://ascopubs.org/doi/10.1200/JCO.2020.38.15_suppl.TPS6590
+
+- id: milestone-lin-trametinib-chemoradiation-2013
+  date: 2013-09-01
+  title: NCT01912625 — Trametinib + Chemoradiation for KRAS-Mutant NSCLC
+  categories: [Milestone]
+  icon: /images/milestone.svg
+  summary: Phase I study at MD Anderson testing MEK inhibition with concurrent chemoradiation in unresectable stage III KRAS-mutant NSCLC.
+  description: >
+    Preliminary high-throughput radiation-sensitizer screens conducted in partnership with GCC-CDDP
+    prioritized MEK pathway inhibition in KRAS-driven models, providing the mechanistic rationale
+    and preclinical efficacy data that enabled translation to this combined-modality trial.
+  links:
+    - label: PubMed (Phase I results)
+      url: https://pubmed.ncbi.nlm.nih.gov/35051703/
+    - label: ClinicalTrials.gov
+      url: https://clinicaltrials.gov/study/NCT01912625
+      
+- id: milestone-rp160710-tnbc-platform-2016
+  date: 2016-08-17
+  title: CPRIT MIRA — TNBC Resistance Platform Trial (RP160710)
+  categories: [Funding, Milestone, Consortia]
+  icon: /images/milestone.svg
+  summary: Randomized clinical trial platform at MD Anderson (PI: William F. Symmans) to overcome therapy resistance in triple-negative breast cancer.
+  description: >
+    Platform trial integrates molecular triaging and imaging-guided neoadjuvant strategies for TNBC.
+    High-throughput screening to identify and phenotype resistance mechanisms.
+  links:
+    - label: CPRIT Grants Funded Listing (RP160710)
+      url: https://www.cprit.texas.gov/grants-funded/
+    - label: MD Anderson News Release (Aug 19, 2016)
+      url: https://www.mdanderson.org/newsroom/md-anderson-receives.h00-159068712.html
+    - label: Background — ARTEMIS TNBC Molecular Triaging
+      url: https://www.mdanderson.org/publications/cancer-frontline/molecular-testing-us.h00-159071868.html
+
