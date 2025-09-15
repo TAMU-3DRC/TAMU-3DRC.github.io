@@ -85,16 +85,18 @@
 
 - id: txsact-mira
   date: 2011-03-24
-  title: CPRIT MIRA — TxSACT
+  title: CPRIT MIRA — TxSACT (RP110532)
   categories: [Funding, Consortia]
   icon: /images/funding.svg
   summary: Multi-investigator CPRIT program accelerates collaborative drug discovery.
   description: >
     TxSACT coordinates cross-lab projects, infrastructure, and training to scale discovery and translation efforts.
   links:
-    - label: TxSACT Overview
-      url: https://www.gulfcoastconsortia.org/
-
+    - label: Administrative Core Funding
+      url: https://www.cprit.texas.gov/grants-funded/grants/rp110532-ac
+    - label: Establishment of the Combinatorial Drug Discovery Program
+      url: https://www.cprit.texas.gov/grants-funded/grants/rp110532-p2
+      
 - id: ncats-tissue-chip
   date: 2023-06-01
   title: NCATS Tissue-Chip Testing/Validation
