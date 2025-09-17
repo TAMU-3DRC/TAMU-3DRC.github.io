@@ -27,7 +27,7 @@
   date: 2015-07-01
   title: CPRIT CFSA — GCC-CDDP (RP150578)
   categories: [Funding]
-  icon: /images/funding.svg
+  icon: /images/CPRIT.png
   summary: CPRIT Core Facility Support Award establishes the Gulf Coast Consortia Combinatorial Drug Discovery Program.
   description: >
     Funding to expand high-throughput screening and combinatorial discovery infrastructure serving investigators across the GCC and Texas Medical Center.
@@ -39,7 +39,7 @@
   date: 2019-09-01
   title: CPRIT CFSA — GCC-HtFCP (RP190581)
   categories: [Funding]
-  icon: /images/funding.svg
+  icon: /images/CPRIT.png
   summary: the Gulf Coast Consortia High Throughput Flow Cytometry Program launched to broaden assay capabilities.
   description: >
     Adds high-content flow cytometry for screening, mechanism profiling, and cell-based analytics.
@@ -51,7 +51,7 @@
   date: 2020-08-01
   title: CPRIT CFSA — GCC-CDDP Renewal (RP200668)
   categories: [Funding]
-  icon: /images/funding.svg
+  icon: /images/CPRIT.png
   summary: Renewal strengthens CDDP instruments, SOPs, and user support.
   description: >
     Deepens capacity and improves reliability for large-scale screening and follow-up.
@@ -63,7 +63,7 @@
   date: 2021-12-01
   title: CPRIT CFSA — GCC-MLOTS (RP210108)
   categories: [Funding]
-  icon: /images/funding.svg
+  icon: /images/CPRIT.png
   summary: the Gulf Coast Consortia Micro-physiological Lead Optimization & Toxicity Screening center created.
   description: >
     Introduces microphysiological systems to improve translational relevance for lead optimization and toxicity assessment.
@@ -87,7 +87,7 @@
   date: 2011-03-24
   title: CPRIT MIRA — TxSACT (RP110532)
   categories: [Funding, Consortia]
-  icon: /images/funding.svg
+  icon: /images/CPRIT.png
   summary: Multi-investigator CPRIT program accelerates collaborative drug discovery.
   description: >
     TxSACT coordinates cross-lab projects, infrastructure, and training to scale discovery and translation efforts.
@@ -113,7 +113,7 @@
   date: 2025-03-01
   title: CPRIT CFSA — GCC-DDRC (RP250505)
   categories: [Funding]
-  icon: /images/funding.svg
+  icon: /images/CPRIT.png
   summary: the Gulf Coast Consortia Drug Discovery Resource Center consolidates CDDP & HtFCP and adds probe discovery.
   description: >
     Forms the integrated 3DRC hub with screening, analytics, and AI-enabled design for small molecules and peptides.
@@ -125,7 +125,7 @@
   date: 2021-05-19
   title: GCC-Cancer Therapeutics Training Program (CTTP)
   categories: [Training]
-  icon: /images/training.svg
+  icon: /images/CPRIT.png
   summary: A Gulf Coast Consortia Multi-institutional postdoctoral training in academic and industry drug discovery.
   description: >
     Prepares fellows with hands-on experience across screening, medicinal chemistry, and translation.
@@ -195,7 +195,7 @@
   date: 2016-08-17
   title: CPRIT MIRA — TNBC Resistance Platform Trial (RP160710)
   categories: [Funding, Consortia]
-  icon: /images/milestone.svg
+  icon: /images/CPRIT.png
   summary: Randomized clinical trial platform at MD Anderson to overcome therapy resistance in triple-negative breast cancer.
   description: >
     Platform trial integrates molecular triaging and imaging-guided neoadjuvant strategies for TNBC.
