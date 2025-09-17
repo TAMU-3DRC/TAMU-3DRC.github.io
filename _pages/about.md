@@ -41,7 +41,7 @@ redirect_from:
     {% assign events = site.data.timeline | sort: 'date' %}
     {% for event in events %}
     <li class="timeline-item" data-category="{{ event.categories | join: ' ' | downcase }}">
-      <div class="timeline-icon">
+      <div class="timeline-icon{% if event.icon contains '.png' %} timeline-icon--logo{% endif %}">
         <img src="{{ event.icon }}" alt="" onerror="this.onerror=null;this.src='/images/default-icon.svg';">
       </div>
       <div class="timeline-content">
@@ -172,10 +172,21 @@ redirect_from:
   justify-content: center;
   overflow: hidden;
 }
+.timeline-icon--logo {
+  border-radius: 8px;
+  background: #fff !important;
+  border: 1px solid #d8d8d8;
+}
 .timeline-icon img {
   width: 24px;
   height: 24px;
   object-fit: contain;
+}
+.timeline-icon--logo img {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  box-sizing: border-box;
 }
 .timeline-content {
   background: #f4f6f8;
