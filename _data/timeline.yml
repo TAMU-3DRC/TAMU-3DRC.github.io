@@ -206,3 +206,31 @@
     - label: MD Anderson News Release (Aug 19, 2016)
       url: https://www.mdanderson.org/newsroom/md-anderson-receives.h00-159068712.html
 
+- id: cttp-renewal-2026
+  date: 2026-05-20
+  title: CPRIT Training Renewal - CTTP (RP260737)
+  categories: [Funding, Training]
+  icon: /images/CPRIT.png
+  summary: CPRIT renewed the Cancer Therapeutics Training Program to expand multi-institutional drug discovery training with added AI-focused components.
+  description: >
+    Competitive renewal funding continues the Gulf Coast Consortia Cancer Therapeutics Training Program,
+    adding Rice University and Houston Methodist Research Institute while integrating AI and advanced
+    computational training across the research, instructional, and participatory curriculum.
+  links:
+    - label: CPRIT CTTP Renewal (RP260737)
+      url: https://www.cprit.texas.gov/grants-funded/grants/rp260737
+
+- id: mlots-renewal-2026
+  date: 2026-05-20
+  title: CPRIT CFSA - GCC-MLOTS Renewal (RP260761)
+  categories: [Funding]
+  icon: /images/CPRIT.png
+  summary: CPRIT renewed the GCC Microphysiological Lead Optimization and Toxicity Screening facility.
+  description: >
+    Renewal funding continues human-relevant lead optimization and early safety testing services using
+    spheroids, organoids, and heart, brain, and liver models, while adding practical data-science tools
+    and hands-on training for students and postdoctoral fellows.
+  links:
+    - label: CPRIT GCC-MLOTS Renewal (RP260761)
+      url: https://www.cprit.texas.gov/grants-funded/grants/rp260761
+
